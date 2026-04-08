@@ -148,3 +148,20 @@ h2, h3 {
     justify-content: center;
   }
 }
+createPlatform(500, 0, 20, 290i, "lme");
+    createPlatform(700, 600, 50, 50, "black");
+    cratePlatform(500, 400, 40, 40, "black");
+    cratePlatform(300, 200, 30, 30, "lime");
+
+    // TODO 3 - Create Collectables
+
+    createCollectable("steve", 1350, 50);
+    createCollectable("diamond", 200, 170, 0.5, 0.7);
+    createCollectable("stone", 300, 300, 200, 1.0, 0.8);
+    createCollectable("diamond", 200, 100, 500, 1.0, 1.0);
+
+    // TODO 4 - Create Cannons
+    createCannon("bottom", 100, 2000);
+    createCannon("right", 300, 2000);
+    createCannon("top", 200, 100);
+    createCannon("left", 400, 1500);

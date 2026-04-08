@@ -33,20 +33,20 @@ $(function () {
 
     createPlatform(500, 0, 20, 290, "lime");
     createPlatform(700, 600, 50, 50, "black");
-    cratePlatform(500, 400, 40, 40, "black");
-    cratePlatform(300, 200, 30, 30, "lime");
+    createPlatform(500, 400, 40, 40, "black");
+    createPlatform(300, 200, 30, 30, "lime");
 
     // TODO 3 - Create Collectables
 
     createCollectable("steve", 1350, 50);
     createCollectable("diamond", 200, 170, 0.5, 0.7);
-    crateCollectable("stone", 300, 300, 200, 1.0, 0.8);
-    crateCollectable("diamond", 200, 100, 500, 1.0, 1.0);
+    createCollectable("steve", 300, 300, 200, 1.0, 0.8);
+    createCollectable("diamond", 200, 100, 500, 1.0, 1.0);
 
     // TODO 4 - Create Cannons
     createCannon("bottom", 100, 2000);
-    crateCannon("right", 300, 2000);
-    createCannon("top", 200, 100);
+    createCannon("right", 300, 2000);
+    createCannon("right", 200, 100, 1500);
     createCannon("left", 400, 1500);
     //////////////////////////////////
     // ONLY CHANGE ABOVE THIS POINT //
