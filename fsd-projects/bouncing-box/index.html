@@ -85,6 +85,9 @@
         function update() {
         moveBoxTo(420); // Moves box to x-position 200
         moveBoxTo(10); // Moves box to right edge
+        if (positionX === 0) {
+          speed *= 20;
+        }
         
         
 
@@ -106,6 +109,9 @@
          var points = 0;
          var points = points + 1; // Adds 1 to variableName
          var speed = 10;
+         if (positionX = boardWidth) {
+          speed = speed * 20;
+         }
           changeBoxText(0)
           
 
